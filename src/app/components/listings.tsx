@@ -28,7 +28,7 @@ const Carousel = () => {
         <div className="h-auto w-full flex  justify-center items-conter">
         <div className="w-[75%]">
       <Swiper
-        navigation={true}
+        // navigation={true}
         pagination={{ clickable: true }}
         modules={[Navigation, Pagination]} // Include modules here
         loop={true}
@@ -54,7 +54,6 @@ const Carousel = () => {
             
           </SwiperSlide>
         ))}
-        
       </Swiper>
     </div>
     </div>

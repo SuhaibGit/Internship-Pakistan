@@ -7,7 +7,7 @@ const Hero3 = () => {
       {/* Overlay */}
       <div className="absolute inset-0 bg-black/50"></div>
       <div className=' relative flex flex-col justify-center items-center'>
-        <h1 className='w-[60%] text-[40px] md:text-[60px] border-b border-white mt-20 font-semibold'>
+        <h1 className=' text-white w-[60%] text-[40px] md:text-[60px] border-b border-white mt-20 font-semibold'>
             About Us
         </h1>
         <p className='w-[60%] text-[20px] md:text-[28px] text-white opacity-80 mt-10 md:mt-16 mb-5 md:mb-0'>

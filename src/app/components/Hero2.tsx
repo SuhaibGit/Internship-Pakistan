@@ -13,7 +13,7 @@ const Hero2 = () => {
         <div className="absolute inset-0 bg-cover bg-center bg-[url('/assets/hero3.jpg')]"></div>
       {/* Overlay */}
       <div className="absolute inset-0 bg-black/70"></div>
-        <div className=' relative flex flex-wrap justify-evenly items-center'>
+        <div className=' relative flex flex-wrap justify-evenly items-center text-white'>
             <h1 className='ml-[70px] md:ml-[50px] h-[50px] md:h-[100px] w-full text-[28px] md:text-[48px] mt-4'>Get In touch</h1>
             
             <div className='h-auto md:h-[700px] w-[80%] md:w-[45%] text-[16px] md:text-[24px] '>
