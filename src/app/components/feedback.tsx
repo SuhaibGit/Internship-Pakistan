@@ -20,9 +20,9 @@ const Feedback = () => {
         <div key={index} className=' mt-10 md:mt-0 mb-10 md:mb-20'>
         <div  className=' h-[320px] w-[250px] bg-white flex flex-wrap p-5 text-greyhome rounded-lg shadow-xl'>
           <div className='flex h-[50px] w-full flex-row justify-between'>
-            <Image src={slide.profile} alt={`${slide.name}'s profile`} className=' w-[50px]' />
+            <Image src={slide.profile} alt={`${slide.name}'s profile`} width={50} height={50} />
 
-            <Image src={slide.image} alt={`${slide.name}'s company logo`} className='h-[50px] w-[50px] object-contain ' style={{ width: '100px' }} />
+            <Image src={slide.image} alt={`${slide.name}'s company logo`} width={50} height={50} className='h-[50px] w-[50px] object-contain ' style={{ width: '100px' }} />
           </div>
           <h1 className='text-black'>{slide.name}</h1>
           <p>{slide.comment}</p>

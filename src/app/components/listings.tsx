@@ -24,7 +24,7 @@ const Carousel = () => {
     
   return (
     <div className="h-[700px] w-full m-auto flex flex-wrap justify-start items-center bg-white">
-        <h1 className="text-primaryblue text-[48px] ml-24 my-7 ">Featured Internships</h1>
+        <h1 className="text-primaryblue text-[28px] md:text-[48px] ml-10 md:ml-24 my-7 ">Featured Internships</h1>
         <div className="h-auto w-full flex  justify-center items-conter">
         <div className="w-[75%]">
       <Swiper
@@ -32,14 +32,18 @@ const Carousel = () => {
         pagination={{ clickable: true }}
         modules={[Navigation, Pagination]} // Include modules here
         loop={true}
+  
       >
+        
         {slides.map((slide, index) => (
           <SwiperSlide key={index}>
-            <div className="h-[500px] flex flex-col justify-center items-center p-[20px] text-center bg-white ">
+            <div className="h-[500px] flex flex-col justify-center items-center p-[8px] md:p-[20px] text-center bg-white ">
             <Image
               src={slide.image}
               alt={slide.title}
-              className="h-[150px] w-[150px] object-contain mb-[10px]"
+              width={150}
+              height={150}
+              className="object-contain mb-[10px]"
             />
               <h3 className="text-black text-[28px]">{slide.title}</h3>
               <p className="white-space:pre-wrap text-greyhome text-[16px]">{slide.description}</p>
@@ -50,6 +54,7 @@ const Carousel = () => {
             
           </SwiperSlide>
         ))}
+        
       </Swiper>
     </div>
     </div>
