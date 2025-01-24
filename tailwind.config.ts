@@ -9,6 +9,9 @@ export default {
   theme: {
     extend: {
       colors: {
+        primaryblue:"#004AAD",//home
+        newblue:"#002E6B",
+        greyhome:"#726E8D",//home
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
@@ -16,3 +19,4 @@ export default {
   },
   plugins: [],
 } satisfies Config;
+
