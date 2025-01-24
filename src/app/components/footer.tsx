@@ -11,18 +11,18 @@ const Footer = () => {
   return (
     <div className="h-auto md:h-[380px] w-[100%] flex flex-wrap justify-center  bg-primaryblue py-4 md:py-0">
         
-      <div className="bg-primaryblue w-[90%] flex flex-col md:flex-row justify-between h-auto md:h-[280px] text-[rgb(215,214,221)] border-b border-[#4e4d93] ">
+      <div className="bg-primaryblue w-[90%] flex flex-col md:flex-row justify-between h-auto md:h-[280px] text-[rgb(215,214,221)] border-b border-[rgb(215,214,221)] ">
 
         
         <ul className='text-[14px] space-y-2 mt-12'>
-          <li className="text-[16px] border-b border-[#4e4d93]">Our Company</li>
+          <li className="text-[16px] border-b border-[rgb(215,214,221)]">Our Company</li>
           <li><Link href={'/about'} className=' hover:text-white'>About Us</Link></li>
           <li><Link href={'/internship'} className=' hover:text-white'>Vacancies</Link></li>
           <li><Link href={'/contact'} className=' hover:text-white'>Contact Us</Link></li>
           <li><Link href={'/internship'} className=' hover:text-white'>Apply Now</Link></li>
         </ul>
         <ul className='text-[14px] space-y-2 mt-12'>
-          <li className="text-[16px] border-b border-[#4e4d93]">More</li>
+          <li className="text-[16px] border-b border-[rgb(215,214,221)]">More</li>
           <li><Link href={'/'} className=' hover:text-white'>Hire Internee</Link></li>
           <li><Link href={'/internship'} className=' hover:text-white'>Work With Us</Link></li>
           <li><Link href={'/internship'} className=' hover:text-white'>Interns Lab</Link></li>
@@ -30,7 +30,7 @@ const Footer = () => {
           <li><Link href={'/'} className=' hover:text-white'>Reports</Link></li>
         </ul>
         <ul className='text-[14px] space-y-2 mt-12' >
-          <li className="text-[16px] border-b border-[#4e4d93]">Help</li>
+          <li className="text-[16px] border-b border-[rgb(215,214,221)]">Help</li>
           <li><Link href={'/'} className=' hover:text-white'>Job Portal</Link></li>
           <li><Link href={'/internship'} className=' hover:text-white'>Task Portal</Link></li>
           <li><Link href={'/internship'} className=' hover:text-white'>LMS</Link></li>
